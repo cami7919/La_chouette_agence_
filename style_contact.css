@@ -1,0 +1,548 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+h1{
+    font-size:45px;
+}
+h2{
+    font-weight:500;
+    font-size:23px;
+}
+
+p{
+    font-size:19px;
+    font-family:"helvetica";
+}
+
+
+
+
+/* header page accueil */
+
+
+
+header {
+    display:flex;
+    justify-content: space-between;
+    gap:10%;
+    width:100%;
+   
+}
+.header_logo{
+margin-top:20px;
+margin-left:10px;
+}
+
+
+
+
+
+
+
+nav {
+    display:flex;
+    justify-content:right;
+    list-style-type:none;
+    font-family:'helvetica';
+    font-weight:600;
+    font-size:17px;
+    width:70%;
+margin-top:15px;  
+margin-right:0; 
+width:90%;
+}
+
+#hamburger_logo, #hamburger{
+    display:none;
+}
+nav ul{
+    list-style-type:none; 
+    display:flex; 
+    padding-left:2px;
+    
+}
+
+
+nav a{
+    text-decoration:none;
+    color:rgba(31, 29, 29, 0.8);
+    opacity:0.9;
+    margin-left:10px;
+}
+header li a:hover{
+    color:gold;
+}
+
+/*------*/
+.banniere{
+    width:100%;
+    position:relative;
+}
+
+.banniere_image{
+    width:100%;
+    height: 400px;
+    margin-top:40px;       
+    background-color:rgb(92, 101, 110);
+    
+}
+
+.banniere_image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    opacity:0.7;
+
+}
+    
+
+
+.banniere_contenu{
+    margin-top:20px;
+    text-align:center;
+    color:gold;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    top:0;    
+   }
+
+   h1{
+       margin-bottom :15px;
+   }
+
+.bouton_contact{
+    border-color:transparent;
+    border-radius:25px;
+    background-color:rgb(226, 85, 110, .9);
+    
+    font-size:19px;
+    color:white;
+    width:130px;
+    height:45px;
+    margin:auto;
+}
+
+.bouton_contact:hover{
+    color:rgb(54, 69, 119,0.9);
+    background-color:gold;
+   }
+
+.bouton_contact:active{
+    box-shadow:3px 3px 3px rgb(54, 69, 119,0.9);}
+
+
+/* bloc 2*/
+.services_domaines{
+display:flex;
+justify-content:space-evenly;
+}
+
+.domaines{
+    text-align:center;
+    width:31%;
+}
+
+.services_txt{
+    text-align:center;
+    margin:50px 20px 50px 20px;
+    color:dimgray;
+    font-family:'helvetica';
+}
+
+.services_citation{
+    text-align:center;
+    margin:50px 20px 50px 20px;
+}
+
+blockquote{
+    font-size:20px;
+    font-style:italic;
+    color:dimgray;
+}
+ /* bloc 3*/
+.banniere_localisme{    
+     height:1100px;
+     width:100%;
+     position:relative;  
+ }
+
+.banniere_localisme--image {
+width:100%;
+height:100%;
+}
+
+.banniere_localisme--image  img{
+    width:100%;
+    height:100%;
+    object-fit:cover;}
+
+.banniere_localisme--txt{
+    width:70%;
+    max-width:900px;
+    height:90%;
+    margin:auto;
+    background-color:rgba(165, 147, 99, 0.8 );
+    background-image: url("./img/texture-paper.png") ;
+    color:white;
+    text-align:center;
+    padding:30px;
+    line-height:40px;
+    font-family:'helvetica';
+    position:absolute;
+    top:50%; left:50%;
+    transform:translate(-50%, -50%);
+   
+    
+  
+ 
+}
+.banniere_localisme--txt h2{
+color:gold;
+}
+
+
+.banniere_localisme--txt a{    
+    font-weight:bold;
+    color:white;}
+
+
+.banniere_localisme--txt a:hover{
+        color:gold;
+    }
+
+/* Realisations */
+
+.realisations{
+    
+    width:100%;
+    text-align:center;
+    margin-top:45px;
+    margin-left:3%;
+    margin-right:3%;
+    margin-bottom:100px;
+    font-family:"helvetica";
+    
+}
+
+.realisations img{
+    margin-top:20px;    
+}
+
+.realisation_mini:hover{
+    filter:grayscale(0.7);
+
+}
+
+    /* CTA*/
+.cta{
+    color:gold;
+    font-weight:500;
+    background-color:rgb(182, 165, 165);
+    background-image: url(./img/texture-paper.png);
+    width:100%;
+    height:250px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+    padding-top:25px;
+}
+
+
+.btn_upwards{
+    position:fixed;
+    z-index:2;
+    bottom:0;
+    right:0;
+    height:25px;
+    width:25px;       
+}
+
+
+
+/*page2 Contact */
+
+.banniere_container{
+    height:350px;
+    width:100%;
+    background: url("img/texture-paper.png");
+    background-color:rgb(226, 85, 110, 0.9);
+    position:relative;
+    margin-top:20px;
+}
+.banniere_txt{   
+    color:white;
+    font-family:'trebuchet MS';    
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:100%; 
+    height:100%;
+    text-align:center;
+    
+}
+
+
+
+
+.banniere_titre:hover{
+    color:rgb(250, 225, 83);
+}
+
+
+
+.formulaire_coordonnees{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:30px;
+    
+}
+
+form{
+    width:65%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.form_info{
+    display:flex;
+    flex-direction:column;
+    margin-top:30px;
+}
+input, textarea, select{    
+border-radius:10px;
+background-color:white;
+border-color: rgb(182, 165, 165);
+color:rgb(0, 0, 0);
+border-style:groove;
+}
+.form_info input, select{
+    height:35px;
+    width:75%;
+    margin-top:10px;
+padding-left:15px;}
+
+.form_info textarea{
+    height:120px;
+    width :90%;
+    margin-top:10px;
+    padding:15px;
+}
+
+
+
+textarea:focus-visible,input:focus-visible{
+outline:none;}
+
+
+textarea:focus,input:focus{
+    
+    box-shadow:4px 4px 3px rgb(226, 85, 110, .9);
+}
+
+
+
+.coordonnees{
+font-family:'helvetica';
+text-align:center;}
+
+.coordonnees img{
+    margin-top:45px;
+    width:100%;
+}
+
+
+.coordonnees h2{
+    margin-top:40px;
+    margin-bottom:0;
+}
+
+.bouton_envoyer{
+    margin-top:25px;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(226, 85, 110, .9);
+    width:20%;
+    min-width:90px;
+    height: 40px;
+    transform:translateX(175%);
+}
+
+.bouton_envoyer:hover{
+    background-color:gold;
+    color:rgb(54, 69, 119,0.9);}
+
+footer{
+        width:100%;
+        height:150px;
+        background-color:rgb(54, 69, 119,0.9);        
+        font-family:'helvetica';
+        color:white;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        }
+
+.footer_deux{        
+        margin-top:30px;}
+
+
+footer p
+{padding-top:20px;
+}
+
+footer i{
+    font-size:25px;
+    margin-right:4%;
+    margin-bottom:20px;
+}
+
+.reseau{
+    color:white;
+}
+
+
+@media screen and(max-width:992px) {
+
+    .banniere_localisme{    
+        height:900px;
+        width:100%;
+        position:relative;  
+    }
+}
+
+@media screen and (max-width:530px){
+
+
+  
+
+ .header_menu
+ {transform:translate(10%,21%);}
+.menu{
+    position:fixed;
+    width:0;
+}
+nav ul{
+    display:flex;
+    flex-direction:column;
+}
+
+
+#hamburger {
+    
+    display: none;
+  }
+  #hamburger_logo {
+    /* Pour que le curseur soit un pointeur */
+    cursor: pointer;
+    background: rgb(182, 165, 165);
+    width: 20px;
+    display: block;
+    color: white;
+    /* Pour que le menu hamburger s'affiche toujours */
+    text-align: right;
+    /* Pour que le menu hamburger soit "rangé" par défaut */
+    transform: translate(-40px,-40px);
+    padding: 10px;
+    margin-top:15px;    
+  }
+
+  #hamburger_logo:hover{
+      color:black;
+      background-color:gold;
+  }
+
+  nav {
+      margin-top:0;
+      margin-bottom:20px;
+      line-height:30px;
+      
+    display: flex;
+    flex-direction: column;
+    background: rgb(182, 165, 165);;
+    overflow: hidden;
+    width: 200px;
+    /* Pour que les liens soient "rangés" par défaut */
+    transform: translate(250px,-15px);
+  }
+
+  #hamburger_logo,
+  nav {
+    /* Pour qu'il y ait une animation */
+    transition: 0.7s;
+  }
+/* Lorsque #hamburger est coché, le #hamburger-logo et le nav qui sont dans le même parent changent de propriété */
+#hamburger:checked ~ #hamburger-logo,
+#hamburger:checked ~ nav {
+  /* Changement de la position pour afficher les menus */
+  transform: translate(-200px,-15px);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background: #444;
+}
+
+
+
+.services_domaines{
+    display:flex;
+    flex-direction:column;
+}
+.domaines{
+    width:100%;
+}
+
+
+
+.banniere_localisme{    
+    height:1500px;
+    width:100%;
+    position:relative;  
+}
+
+.coordonnees img{
+    width:70%;
+}
+
+
+/*   version mobile --- PAGE CONTACT */
+
+.banniere_txt p{
+    padding-bottom:20px;
+}
+.banniere_container{
+    height:450px;
+}
+
+.formulaire_coordonnees{
+    display:flex;
+    flex-direction:column;
+    margin-top:30px;
+    
+}
+
+form{
+    width:100%;
+
+}
+
+
+}
