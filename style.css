@@ -149,7 +149,7 @@ justify-content:space-evenly;
     width:27%;
 }
 .domaines img{
-    margin-left:33%;}
+    margin-left:42%;}
 
 .domaines h2 {
     text-align:center;}
@@ -233,9 +233,7 @@ color:gold;
     
     width:100%;
     text-align:center;
-    margin-top:45px;
-    margin-left:3%;
-    margin-right:3%;
+    margin-top:45px;    
     margin-bottom:100px;
     font-family:"helvetica";
     
@@ -542,13 +540,15 @@ nav{
     flex-direction:column;
 }
 .domaines{
-    width:95%;
+    width:90%;
     margin-left:5%;
     margin-bottom:30px;
+    margin-right:auto;
 }
 .realisation_item{
-    width:92%;
-    margin:auto;}
+    width:90%;
+    margin-left:5%;
+    margin-right:auto;}
     
 
 
@@ -563,13 +563,14 @@ nav{
     width:70%;
 }
 
-.realisation_item
-{width:92%;
-margin:auto;}
+
 
 .cta h2{
     text-align:center;
 }
+
+
+
 
 /*   version mobile --- PAGE CONTACT */
 
