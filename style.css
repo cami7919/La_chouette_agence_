@@ -443,10 +443,10 @@ footer i{
 @media screen and (max-width:530px){
 
 
-  
+.header_menu
+{transform:translate(10%,21%);} 
 
- .header_menu
- {transform:translate(10%,21%);}
+ 
 .menu{
     position:fixed;
     width:0;
@@ -457,53 +457,55 @@ nav ul{
 }
 
 
-#hamburger {
-    
-    display: none;
-  }
+#hamburger {    
+    display: none;  }
+
+
   #hamburger_logo {
     /* Pour que le curseur soit un pointeur */
     cursor: pointer;
-    background: rgb(182, 165, 165);
+    background: white;
+    font-size:24px;
     width: 20px;
+    
     display: block;
-    color: white;
+    color: black;
     /* Pour que le menu hamburger s'affiche toujours */
     text-align: right;
     /* Pour que le menu hamburger soit "rangé" par défaut */
-    transform: translate(-40px,-40px);
-    padding: 10px;
-    margin-top:15px;    
+    transform: translate(-20px,5px);
+    padding: 8px;
+    margin-top:5px;  
   }
 
-  #hamburger_logo:hover{
-      color:black;
-      background-color:gold;
-  }
+ 
 
   nav {
       margin-top:0;
       margin-bottom:20px;
       line-height:30px;
+      margin-left:10px;
       
-    display: flex;
+    display: none;
     flex-direction: column;
     background: rgb(182, 165, 165);;
     overflow: hidden;
-    width: 200px;
-    /* Pour que les liens soient "rangés" par défaut */
-    transform: translate(250px,-15px);
+    width: 330px;
+    transform: translate(270px,-15px);
   }
 
-  #hamburger_logo,  nav {    
-    transition: 0.7s;
-  }
-/* Lorsque #hamburger est coché, le #hamburger-logo et le nav qui sont dans le même parent changent de propriété */
-#hamburger:checked ~ #hamburger-logo,
+
+
+
 #hamburger:checked ~ nav {
   /* Changement de la position pour afficher les menus */
-  transform: translate(-200px,-15px);
+  transform: translate(-300px,-15px);
+  display: flex;
 }
+#hamburger:checked ~  #hamburger_logo {
+    
+    color:white;}
+
 
 nav a {
   color: white;
