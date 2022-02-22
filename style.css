@@ -145,10 +145,19 @@ display:flex;
 justify-content:space-evenly;
 }
 
-.domaines{
-    text-align:center;
-    width:31%;
+.domaines{    
+    width:27%;
 }
+.domaines img{
+    margin-left:33%;}
+
+.domaines h2 {
+    text-align:center;}
+
+.domaines p{
+    text-align:justify;
+}
+
 
 .services_txt{
     text-align:center;
@@ -399,8 +408,8 @@ footer{
         margin-top:30px;}
 
 
-footer p
-{padding-top:20px;
+footer p{
+    padding-top:20px;
 }
 
 footer i{
@@ -414,14 +423,22 @@ footer i{
 }
 
 
+
+/*  VERSION TABLETTE */
+
 @media screen and(max-width:992px) {
 
-    .banniere_localisme{    
+.banniere_localisme{    
         height:900px;
         width:100%;
         position:relative;  
     }
+
+
+
 }
+
+/*  VERSIONS MOBILE */
 
 @media screen and (max-width:530px){
 
@@ -478,9 +495,7 @@ nav ul{
     transform: translate(250px,-15px);
   }
 
-  #hamburger_logo,
-  nav {
-    /* Pour qu'il y ait une animation */
+  #hamburger_logo,  nav {    
     transition: 0.7s;
   }
 /* Lorsque #hamburger est coché, le #hamburger-logo et le nav qui sont dans le même parent changent de propriété */
@@ -525,8 +540,14 @@ nav{
     flex-direction:column;
 }
 .domaines{
-    width:100%;
+    width:95%;
+    margin-left:5%;
+    margin-bottom:30px;
 }
+.realisation_item{
+    width:92%;
+    margin:auto;}
+    
 
 
 
@@ -540,6 +561,13 @@ nav{
     width:70%;
 }
 
+.realisation_item
+{width:92%;
+margin:auto;}
+
+.cta h2{
+    text-align:center;
+}
 
 /*   version mobile --- PAGE CONTACT */
 
@@ -565,3 +593,21 @@ form{
 
 
 }
+
+@media screen and (max-width:400px){
+
+.banniere_localisme{
+    height:1400px;
+}
+
+
+}
+
+@media screen and (max-width:368px){
+
+    .banniere_localisme{
+        height:1600px;
+    }
+    
+    
+    }
