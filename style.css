@@ -500,7 +500,25 @@ nav a:hover {
   background: #444;
 }
 
+nav{
+    margin-bottom:0;
+}
 
+
+
+
+
+
+.banniere_image{
+    height:430px;
+}
+
+.banniere_contenu{
+    margin-top:0;
+}
+.banniere_contenu img{
+    margin-top:20px;
+}
 
 .services_domaines{
     display:flex;
@@ -513,7 +531,7 @@ nav a:hover {
 
 
 .banniere_localisme{    
-    height:1500px;
+    height:1300px;
     width:100%;
     position:relative;  
 }
@@ -530,6 +548,7 @@ nav a:hover {
 }
 .banniere_container{
     height:450px;
+    margin-top:40px;
 }
 
 .formulaire_coordonnees{
