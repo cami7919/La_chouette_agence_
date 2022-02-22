@@ -142,6 +142,7 @@ header li a:hover{
 /* bloc 2*/
 .services_domaines{
 display:flex;
+flex-direction:row;
 justify-content:space-evenly;
 }
 
@@ -178,7 +179,7 @@ blockquote{
 }
  /* bloc 3*/
 .banniere_localisme{    
-     height:1100px;
+     height:600px;
      width:100%;
      position:relative;  
  }
@@ -194,7 +195,7 @@ height:100%;
     object-fit:cover;}
 
 .banniere_localisme--txt{
-    width:70%;
+    width:85%;
     max-width:900px;
     height:90%;
     margin:auto;
@@ -202,7 +203,7 @@ height:100%;
     background-image: url("./img/texture-paper.png") ;
     color:white;
     text-align:center;
-    padding:30px;
+    padding:15px;
     line-height:40px;
     font-family:'helvetica';
     position:absolute;
@@ -424,10 +425,10 @@ footer i{
 
 /*  VERSION TABLETTE */
 
-@media screen and(max-width:992px) {
+@media screen and (max-width:772px){
 
 .banniere_localisme{    
-        height:900px;
+        height:800px;
         width:100%;
         position:relative;  
     }
@@ -438,7 +439,7 @@ footer i{
 
 /*  VERSIONS MOBILE */
 
-@media screen and (max-width:530px){
+@media screen and (max-width:535px){
 
 
 .header_menu
@@ -554,7 +555,7 @@ nav{
 
 
 .banniere_localisme{    
-    height:1300px;
+    height:1000px;
     width:100%;
     position:relative;  
 }
@@ -597,20 +598,33 @@ form{
 
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:447px){
 
 .banniere_localisme{
-    height:1400px;
+    height:1150px;
 }
 
 
 }
 
-@media screen and (max-width:368px){
+@media screen and (max-width:390px){
 
     .banniere_localisme{
-        height:1600px;
+        height:1220px;
     }
     
     
     }
+
+ @media screen and (max-width:350px){
+
+        .banniere_localisme{
+            height:1340px;
+        }
+}
+@media screen and (max-width:311px){
+
+    .banniere_localisme{
+        height:1460px;
+    }
+}
