@@ -2,140 +2,119 @@
 <html lang="fr-fr">
 <head>
     <meta charset="utf-8">
-	<title>la chouette agence_Contact</title>
-    
+	<title>la chouette agence_Contact</title>    
     <meta name="description" content="contactez la chouette agence, agence de web design basée à lyon, pour tous vos projets">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-	<script src="https://kit.fontawesome.com/ad9e49d4ec.js" crossorigin="anonymous"></script>
-    
+	<script src="https://kit.fontawesome.com/ad9e49d4ec.js" crossorigin="anonymous"></script>  
 	
-	<link rel="stylesheet" type="text/css" href="style.css">
-	
-	
+	<link rel="stylesheet" type="text/css" href="style.css">	
 	  
 </head>
 
 <body>
-<!-- Principal conteneur -->
 
-    
-<!-- bloc-0 -->
-<header>
+	<header>
 
 		<div class="header_logo" id="top">
-					<img src="img/la-chouette-agence.png" alt="logo et nom de la chouette agence" height="40" />
-					
+			<img src="img/la-chouette-agence.png" alt="logo et nom de la chouette agence" height="40" />					
 		</div>
 		<div class="header_menu">
-		<input type="checkbox" id="hamburger">
-		<label id="hamburger_logo" for="hamburger"><i class="fas fa-bars"></i></label>
-		<nav> 
-			<ul>            
+			<input type="checkbox" id="hamburger">
+			<label id="hamburger_logo" for="hamburger"><i class="fas fa-bars"></i></label>
+			<nav> 
+				<ul>            
 				   <li><a href="index.html">Accueil</a></li>
-				  <li><a href="#nos_realisations">Réalisations</a> </li>                           
-					<li><a href="page2.html">Contact</a></li>  
-			</ul>                                                  
-		</nav>
-</header>	
-<!-- bloc-0 END -->
+				   <li><a href="#nos_realisations">Réalisations</a> </li>                           
+				   <li><a href="page2.html">Contact</a></li>  
+				</ul>                                                  
+			</nav>
+	</header>	
 
-<!-- bloc-1 -->
 <main>
-<section class="banniere_container"></div>
+	<section class="banniere_container"></div>
 
-	<div class="banniere_txt">
+		<div class="banniere_txt">
 	
-		<h1 class="banniere_titre">
-		Parlons web design !
-		</h1>
-		<h2 class="banniere_presentation">
-		Nous sommes ravis que vous souhaitiez collaborer avec notre agence.</h2><br/>
-		<p>Parlez-nous de votre projet en complétant le formulaire ci-dessous.</p>
-	</div>
-</section>	
+			<h1 class="banniere_titre">
+			Parlons web design !</h1>
+			
+			<h2 class="banniere_presentation">
+			Nous sommes ravis que vous souhaitiez collaborer avec notre agence.</h2><br/>
+			<p>Parlez-nous de votre projet en complétant le formulaire ci-dessous.</p>
+		</div>
+	</section>	
 
 		
 
 
 <!-- bloc-2 formulaire-->
-<section class="formulaire_coordonnees">
+	<section class="formulaire_coordonnees">
 	
-	<form method="post" action="traitement.php">
-		<div class="form_info">
-			<label>	Votre nom	</label>
-			<input id="name" class="form-control" required autofocus/>
-		</div>
+		<form method="post" action="traitement.php">
+			<div class="form_info">
+				<label>	Votre nom	</label>
+				<input id="name" class="form-control" required autofocus/>
+			</div>
 
-		<div class="form_info">
-			<label>	Adresse email		</label>
-			<input id="email" class="form-control" type="email" required />
-		</div>
+			<div class="form_info">
+				<label>	Adresse email		</label>
+				<input id="email" class="form-control" type="email" required />
+			</div>
 
-		<div  class="form_info">
-			<label>	Comment nous avez-vous connu ?</label>
+			<div  class="form_info">
+				<label>	Comment nous avez-vous connu ?</label>
 			
-			<select>
-				<option>Recherche sur Internet</option>
-				<option>Recommandation</option>
-				<option>Réseaux sociaux</option>
+				<select>
+					<option>Recherche sur Internet</option>
+					<option>Recommandation</option>
+					<option>Réseaux sociaux</option>
+				</select>
+			</div>
 
-			</select>
+			<div  class="form_info">
+				<label>	Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+				</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+			</div>
+
+	
+			<div class="envoyer">
+				<input class="bouton_envoyer" type="submit" value="Envoyer"/>
+			</div>	
+
+		</form>
+	
+	
+		<div class="coordonnees">
+			<h2>Nos locaux</h2><br>
+			<h3>La chouette agence</h3><p>2 place Sathonay, 69001 Lyon<br/>Ouvert de 9h à 18h,<br/> du lundi au vendredi<br/><br/><a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a></p>
+			<img src="./img/equipe_small.jpeg"  alt=">Photo Équipe web design à la table au bureau créé par AllaSerebrina"/>
 		</div>
 
-		<div  class="form_info">
-			<label>	Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-			</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
-		</div>
 
-	
-	<div class="envoyer">
-			<input class="bouton_envoyer" type="submit" value="Envoyer"/>
-	</div>	
-
-	</form>
-	
-	
-	<div class="coordonnees">
-		<h2>Nos locaux</h2><br>
-		<h3>La chouette agence</h3><p>2 place Sathonay, 69001 Lyon<br/>Ouvert de 9h à 18h,<br/> du lundi au vendredi<br/><br/><a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a></p>
-		<img src="./img/equipe_small.jpeg"  alt=">Photo Équipe web design à la table au bureau créé par AllaSerebrina"/>
-	</div>
-
-
-</section>
+	</section>
 
 
 
 <!-- bouton pour remonter -->
-<div class="btn_upwards">
-	<a href="#top"><img src="./img/chevron_small.png" alt="chevron"/></a>
-</div>
-<!-- fin du bouton-->
-
-
-
-</main>
-<!-- Footer --->
-
-<footer class="footer_deux">
-	<p>La chouette agence - Agence de design web basée à Lyon</p>
-	<div class="reseau">
-		<i class="fa-brands fa-twitter"></i>
-		<i class="fa-brands fa-facebook-f"></i>
-		<i class="fa-regular fa-basketball"></i>
-		<i class="fa-brands fa-instagram"></i>
+	<div class="btn_upwards">
+		<a href="#top"><img src="./img/chevron_small.png" alt="chevron"/></a>
 	</div>
 
 
-</footer>
+</main>
+
+
+	<footer class="footer_deux">
+		<p>La chouette agence - Agence de design web basée à Lyon</p>
+		<div class="reseau">
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-facebook-f"></i>
+			<i class="fa-regular fa-basketball"></i>
+			<i class="fa-brands fa-instagram"></i>
+		</div>
+	</footer>
     
- <!-- Analytics --> 
 
-
- 
-
- 
-<!-- Analytics END -->
 </body>
 </html>
