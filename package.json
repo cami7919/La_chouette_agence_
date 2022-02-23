@@ -1,0 +1,20 @@
+{
+  "name": "la_chouette_agence_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prefix": "postcss ./style.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cami7919/La_chouette_agence_.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist":"last 4 versions",
+  "bugs": {
+    "url": "https://github.com/cami7919/La_chouette_agence_/issues"
+  },
+  "homepage": "https://github.com/cami7919/La_chouette_agence_#readme"
+}
