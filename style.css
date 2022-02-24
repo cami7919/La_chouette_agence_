@@ -510,7 +510,7 @@ nav ul{
     background: rgb(182, 165, 165);;
     overflow: hidden;
     width: 330px;
-    transform: translate(270px,-15px);
+    transform: translate(0px,-15px);
   }
 
 
