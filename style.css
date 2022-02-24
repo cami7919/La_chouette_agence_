@@ -504,25 +504,23 @@ nav ul{
       margin-bottom:20px;
       line-height:30px;
       margin-left:10px;
-      
+      transform: translate(-300px,-15px);
     display: none;
     flex-direction: column;
     background: rgb(182, 165, 165);;
     overflow: hidden;
     width: 330px;
-    transform: translate(0px,-15px);
+    
   }
 
 
 
 
 #hamburger:checked ~ nav {
-  /* Changement de la position pour afficher les menus */
-  transform: translate(-300px,-15px);
-  display: flex;
-}
-#hamburger:checked ~  #hamburger_logo {
-    
+  /* Changement de la position pour afficher les menus */  
+  display: flex;}
+
+#hamburger:checked ~  #hamburger_logo {    
     color:white;}
 
 
