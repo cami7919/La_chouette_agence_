@@ -36,6 +36,10 @@ margin-top:20px;
 margin-left:10px;
 }
 
+.header_logo img{
+    width:210px;
+    height:40px;}
+
 
 
 nav {
@@ -258,6 +262,8 @@ color:gold;
 }
 
 .realisation_img{
+    with:200px;
+    height:200px;
     transform:scale(1);
     transition : 0.7s ease-in-out;
 }
@@ -504,25 +510,23 @@ nav ul{
       margin-bottom:20px;
       line-height:30px;
       margin-left:10px;
-      
+      transform: translate(-300px,-15px);
     display: none;
     flex-direction: column;
     background: rgb(182, 165, 165);;
     overflow: hidden;
     width: 330px;
-    transform: translate(0px,-15px);
+    
   }
 
 
 
 
 #hamburger:checked ~ nav {
-  /* Changement de la position pour afficher les menus */
-  transform: translate(-300px,-15px);
-  display: flex;
-}
-#hamburger:checked ~  #hamburger_logo {
-    
+  /* Changement de la position pour afficher les menus */  
+  display: flex;}
+
+#hamburger:checked ~  #hamburger_logo {    
     color:white;}
 
 
@@ -618,7 +622,9 @@ form{
 
 }
 
-@media screen and (max-width:447px){
+@media screen and (max-width:469px){
+
+
 
 .banniere_localisme{
     height:1150px;
@@ -637,6 +643,10 @@ form{
     }
 
  @media screen and (max-width:350px){
+
+    .banniere_image{
+        width:100%;
+        height: 470px;}
 
         .banniere_localisme{
             height:1340px;
