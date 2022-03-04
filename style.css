@@ -86,7 +86,7 @@ header li a:hover{
     width:100%;
     height: 400px;
     margin-top:40px;       
-    background-color:rgb(92, 101, 110);
+    background-color:rgb(83, 87, 90);
     
 }
 
@@ -103,7 +103,7 @@ header li a:hover{
 .banniere_contenu{
     margin-top:20px;
     text-align:center;
-    color:gold;
+    color:rgb(248, 225, 96);
     width:100%;
     height:100%;
     display:flex;
@@ -125,7 +125,7 @@ h1 span{
 .bouton_contact{
     border-color:transparent;
     border-radius:25px;
-    background-color:rgb(226, 85, 110, .9);
+    background-color:rgba(243, 153, 93, 0.9);
     padding-top :10px;
     font-size:19px;
     color:white;
@@ -134,23 +134,24 @@ h1 span{
     margin:auto;
 }
 
-.cta .bouton_contact a{
-    padding-left:20px;}
+.bouton_contact:hover{
+    background-color:rgba(243, 203, 93, 0.9);}
+
 
 
 .bouton_contact a{
-    color:white;
+    color:black;
+    padding-left:0px;
     text-decoration:none;
-    font-weight:600;
+    font-weight:800;
     line-height:10px;
     display: inline-block;
-        vertical-align: middle;
+    vertical-align: middle;
 }
 
-.bouton_contact:hover{
-    color:rgb(54, 69, 119,0.9);
-    background-color:gold;
-   }
+
+
+   
 
 .bouton_contact:active{
     box-shadow:3px 3px 3px rgb(54, 69, 119,0.9);}
@@ -285,7 +286,7 @@ color:gold;
     
     /* CTA*/
 .cta{
-    color:gold;
+    color:rgb(248, 225, 96);;
     font-weight:500;
     background-color:rgb(182, 165, 165);
     background-image: url(./img/texture-paper.png);
@@ -299,6 +300,9 @@ color:gold;
     padding-top:25px;
 }
 
+.cta .bouton_contact{
+    padding-left:30px;
+}
 
 .btn_upwards{
     position:fixed;
@@ -339,7 +343,7 @@ color:gold;
 
 
 .banniere_titre:hover{
-    color:rgb(250, 225, 83);
+    color:rgb(248, 225, 96);
 }
 
 
