@@ -103,7 +103,7 @@ header li a:hover{
 .banniere_contenu{
     margin-top:20px;
     text-align:center;
-    color:rgb(248, 225, 96);
+    color:rgb(245, 236, 186);
     width:100%;
     height:100%;
     display:flex;
@@ -286,7 +286,7 @@ color:gold;
     
     /* CTA*/
 .cta{
-    color:rgb(248, 225, 96);;
+    color:rgb(245, 236, 186);
     font-weight:500;
     background-color:rgb(182, 165, 165);
     background-image: url(./img/texture-paper.png);
