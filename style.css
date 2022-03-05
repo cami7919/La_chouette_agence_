@@ -87,8 +87,8 @@ header li a:hover{
     width:100%;
     height: 400px;
     margin-top:40px;       
-    background-color:rgba(15, 14, 14, 0.822);
-    background-image: url(./img/texture-paper.png);
+    background-color:rgb(34, 31, 31);
+    
     
     
 }
@@ -97,7 +97,7 @@ header li a:hover{
     width:100%;
     height:100%;
     object-fit:cover;
-    opacity:0.8;
+    opacity:0.4;
 
 }
     
@@ -293,7 +293,7 @@ color:gold;
 .cta{
     color:rgb(247, 240, 205);
     font-weight:500;
-    background-color:rgb(122, 107, 107);
+    background-color:rgb(107, 94, 94);
     background-image: url(./img/texture-paper.png);
     width:100%;
     height:250px;
