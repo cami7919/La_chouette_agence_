@@ -58,6 +58,10 @@ width:90%;
 #hamburger_logo, #hamburger{
     display:none;
 }
+
+#hamburger_logo span{
+    display:none;
+}
 nav ul{
     list-style-type:none; 
     display:flex; 
